@@ -17,3 +17,20 @@ This is note for AI learning containing implemenation practice and theory notes
 	  - function parameter passing can be regarded as pointer passing
   - Python operator.itemgetter
   - Python dict.items(): list of tuple in dictionary
+
+### 2018/9/16
+ - Desicion tree plot and classify implementation
+  - Python tell variable type
+  	- isinstance, isinstance(tree, dict)
+	- type, type(tree).\__name__ == 'dict'
+  - Python matplotlib axis range
+  	- x from left to right: 0.0 -> 1.0
+	- y from bottom to top: 0.0 -> 1.0
+  - Python store variable in file
+  	- pickle.dump
+	- pickle.load
+  - Vim find
+  	- /string Find string from top to bottom
+	- ?string Find string from bottom to top
+  - Vim replace
+  	- /s/origin/new/g Replace orgin with new
